@@ -1,32 +1,83 @@
+.title{
+    background: #fff;
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items:flex-start;
+    padding: 2rem 4rem;
+    box-shadow:0 .5rem 1rem rgba(0, 0, 0, .1);
+    
+}
+.title h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  color:gray; 
+}
+.Adress{
+  text-align: center;
+  padding:10rem;
+  width: 80%;
+}
+.Adress Form{
+  
+  margin: .7rem 0;padding: 1rem;
+  border-radius: .5rem;
+  background:beige;
+  font-size: 1.6rem;
+  color:grey;
+  text-transform: none;
+}
+.Adress Form.Control:hover{
+  outline:.1rem solid #B56626 ;
+ 
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App img{
+  margin-top: 1rem;
+  height: 20rem;
+  border-radius: .5rem;
+  outline-offset: -1rem;
+  outline: .1rem solid  rgba(0, 0, 0, .1);
+  box-shadow:0 .5rem 1.5rem rgba(0, 0, 0, .1);
+  transition: .2s linear;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App img:hover{
+  outline-offset: 0rem;
+  outline:.1rem solid #B56626 ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App h1{
+  padding: 2rem;
+  font-size: 1.2rem;
+  color:grey;
+  
+}
+.App button{
+  background: gray;
+  border: none;
+}
+.App button:hover{
+  background: #B56626;
+}
+.Design {
+  margin:0; 
+  padding: 0;
+  background-color: white;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:black;
+  margin-bottom: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
